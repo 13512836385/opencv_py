@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "opencv-py"
+version = "0.1.0"
+description = ""
+authors = ["hhy <758115839@qq.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.14"
+opencv-python = "^4.10.0.84"
+pyinstaller = "^6.10.0"
+cx-freeze = "^7.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
